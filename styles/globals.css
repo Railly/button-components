@@ -7,8 +7,11 @@ body {
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+  color: purple;
+  text-decoration: snow;
+}
+a:hover {
+  border-bottom: 1px solid purple;
 }
 
 * {
