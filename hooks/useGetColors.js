@@ -21,8 +21,7 @@ export default function useGetColors (variantName, disabled) {
         disabled: THEME.disabled,
         outline: THEME.white,
         text: THEME.white
-      }),
-      boxShadow: '0px 2px 3px rgba(51, 51, 51, 0.2)'
+      })
     },
     primary: {
       color: getColor(disabled, variantName, {
@@ -42,8 +41,7 @@ export default function useGetColors (variantName, disabled) {
         disabled: THEME.disabled,
         outline: THEME.white,
         text: THEME.white
-      }),
-      boxShadow: '0px 2px 3px rgba(51, 51, 51, 0.2)'
+      })
     },
     secondary: {
       color: getColor(disabled, variantName, {
@@ -63,8 +61,7 @@ export default function useGetColors (variantName, disabled) {
         disabled: THEME.disabled,
         outline: THEME.white,
         text: THEME.white
-      }),
-      boxShadow: '0px 2px 3px rgba(51, 51, 51, 0.2)'
+      })
     },
     danger: {
       color: getColor(disabled, variantName, {
@@ -84,8 +81,7 @@ export default function useGetColors (variantName, disabled) {
         disabled: THEME.disabled,
         outline: THEME.white,
         text: THEME.white
-      }),
-      boxShadow: '0px 2px 3px rgba(51, 51, 51, 0.2)'
+      })
     }
   }
   return [VARIANT_COLORS]

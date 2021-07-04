@@ -15,4 +15,26 @@ const THEME = {
   white: '#FFF'
 }
 
+export const PADDING = {
+  sm: '6px 12px',
+  md: '8px 16px',
+  lg: '11px 22px',
+  default: '8px 16px'
+}
+
+export const POSITION_ICON = {
+  startIcon: {
+    justifyContent: 'space-evenly',
+    flexDirection: 'row'
+  },
+  endIcon: {
+    justifyContent: 'space-evenly',
+    flexDirection: 'row-reverse'
+  },
+  default: {
+    justifyContent: 'center',
+    flexDirection: 'row'
+  }
+}
+
 export default THEME
