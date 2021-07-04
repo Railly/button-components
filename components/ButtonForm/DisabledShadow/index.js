@@ -7,7 +7,7 @@ export default function DisabledShadow ({ onChange }) {
           <input
             id="NotDisabledShadow"
             type="radio"
-            name="state"
+            name="stateShadow"
             value=""
             onChange={onChange}
           />
@@ -17,7 +17,7 @@ export default function DisabledShadow ({ onChange }) {
           <input
             type="radio"
             id="DisabledShadow"
-            name="state"
+            name="stateShadow"
             value="true"
             defaultChecked={true}
             onChange={onChange}
