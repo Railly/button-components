@@ -11,7 +11,7 @@ export default function Size ({ onChange }) {
             value="sm"
             onChange={onChange}
           />
-          Pequeño
+          Small
         </label>
         <label htmlFor="Medium">
           <input
@@ -22,7 +22,7 @@ export default function Size ({ onChange }) {
             defaultChecked={true}
             onChange={onChange}
           />
-          Mediano
+          Medium
         </label>
         <label htmlFor="Large">
           <input
@@ -32,7 +32,7 @@ export default function Size ({ onChange }) {
             value="lg"
             onChange={onChange}
           />
-          Grande
+          Large
         </label>
       </div>
       <style jsx>{`
