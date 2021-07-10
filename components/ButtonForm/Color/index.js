@@ -45,22 +45,26 @@ export default function Color ({ onChange }) {
           Danger
         </label>
       </div>
-      <style jsx>{`
-        p {
-          font-size: 18px;
-          color: #e55768;
-        }
+      <style jsx>
+        {`
+          p {
+            font-size: 18px;
+            color: #e55768;
+          }
 
-        label {
-          font-size: 18px;
-        }
+          label {
+            font-size: 16px;
+            text-align: center;
+            padding-right: 0.5em;
+          }
 
-        div {
-          display: flex;
-          justify-content: space-evenly;
-          align-items: center;
-        }
-      `}</style>
+          div {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+          }
+        `}
+      </style>
     </>
   )
 }

@@ -33,7 +33,9 @@ export default function Disabled ({ onChange }) {
         }
 
         label {
-          font-size: 18px;
+          font-size: 16px;
+          text-align: center;
+          padding-right: 0.5em;
         }
 
         div {
